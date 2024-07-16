@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Apply the blinking animation to the text */
+.blinking-text {
+  animation: blink 2.4s infinite;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+/*---- copy code for blink--*/
+.blink{
+  animation: blink 1.2s infinite;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase; 
+  
+}
+@keyframes blink{
+  0% {
+    opacity: 1;
+    color:cyan;
+  }
+  20% {
+    opacity: 1;
+    color: green;
+  }
+  40% {
+    opacity: 1;
+    color: yellow;
+  }
+  60% {
+    opacity: 1;
+    color: blue;
+  }
+  80% {
+    opacity: 1;
+    color: orange;
+  }
+  100% {
+    opacity: 1;
+    color:aqua;
+  }
+}
+@-webkit-keyframes blink{
+  0% {
+    opacity: 1;  
+    color:cyan;
+  }
+  20% {
+    opacity: 1;
+    color: green;
+  }
+  40% {
+    opacity: 1;
+    color: yellow;
+  }
+  60% {
+    opacity: 1;
+    color: blue;
+  }
+  80% {
+    opacity: 1;
+    color: orange;
+  }
+  100% {
+    opacity: 1;
+    color:aqua;
+  }
+}

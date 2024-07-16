@@ -1,0 +1,927 @@
+ <!DOCTYPE html>
+ <html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+  
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- Sli-->
+    
+    <title>BBMS</title>
+    <!--css import -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Demo styles -->
+    
+  <!---import outputcss-->
+
+
+ <!-- Swiper JS -->
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer ></script>
+
+ <!-- link script js file -->
+ <script src="./script.js" defer></script>
+    <!---import outputcss-->
+    
+  <link rel="stylesheet" href="/assets/index-b11a00c2.css">
+</head>
+<body class="bg-red-600">
+    
+    <!--Navbar-->
+    <nav class="bg-gradient-to-r from-purple-500 to-pink-500">
+        <div class="relative w-[1080px] mx-auto flex items-center justify-between ">
+
+            <!-- logo -->
+            <a href="/" class="cursor-pointer py-7 pr-7 ">
+                <img
+                src="/assets/logo b1-f36cec42.jpeg"
+                width="70px"
+                height="50px"/>
+            </a>
+
+            <ul class="flex space-x-6">
+                <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer
+                 transition-all duration-200 relative group">
+                <a href="./index.html">Home</a>
+
+                <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block
+                transition-all duration-200" ></div>
+                </li>
+
+
+                <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer
+                 transition-all duration-200 relative group">
+                <a href="./rag.html">About</a>
+
+                <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block
+                transition-all duration-200" ></div>
+                </li>
+
+                <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer
+                 transition-all duration-200 relative group">
+                <a href="./bloodbank.html">Blood Bank</a>
+
+                <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block
+                transition-all duration-200" ></div>
+                </li>
+
+
+                <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer
+                 transition-all duration-200 relative group">
+                <a href="./finddonar.html">Find Donor</a>
+
+                </li>
+
+
+                <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer
+                 transition-all duration-200 relative group">
+                <a href="./hospital.html">Hospitals</a>
+
+                </li>
+
+
+                <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer
+                 transition-all duration-200 relative group">
+                <a href="./howtodon.html">How to Donate</a>
+
+                <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block
+                transition-all duration-200" ></div>
+                </li>
+
+
+                <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer
+                 transition-all duration-200 relative group">
+                <a href="./gallery.html">gallery</a>
+
+                <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block
+                transition-all duration-200" ></div>
+                </li>
+                
+
+                <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer
+                 transition-all duration-200 relative group">
+                <a href="./contactus.html">Contact us</a>
+
+                <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block
+                transition-all duration-200" ></div>
+                </li>
+            </ul>
+
+            <div class="flex space-x-5">
+                <img
+                    src="/assets/india-flag-62cf945b.svg"
+                    width="28px"
+                    height="20px"
+                    />
+                <button class="py-3 px-5 font-mullish text-white border-lightBlue border
+                rounded-sm text-sm  font-bold transition-all duration-200 
+                hover:text-lightBlue500 flex"><a href="./login.html">Log in</a>
+                <svg
+                viewBox="0 0 24 24"
+                focusable="false"
+                class="w-[14px] h-[14px] ml-3"
+              >
+                <path
+                  fill="currentColor"
+                  d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                ></path>
+              </svg>
+               </button>
+
+
+                <button class="py-3 px-4 font-mullish rounded-sm text-sm font-bold
+                bg-white text-lightBlue300 border transition-all duration-200
+                hover:text-lightBlue500 flex"> <a href="./signup.html">Sign Up</a>
+                <svg
+                viewBox="0 0 24 24"
+                focusable="false"
+                class="w-[14px] h-[14px] ml-3"
+                >
+                <path
+                  fill="currentColor"
+                  d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                ></path>
+              </svg></button>
+            </div>
+
+
+        </div>
+    </nav>
+<!-- style -->
+ 
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer ></script>
+
+    <!-- link script js file -->
+    <script src="./script.js" defer></script>
+</head>
+
+
+
+
+    <!--Hero Section-->
+    <section
+    class="relative bg-deepBlue">
+
+    <div class="w-full max-w-[1080px] flex flex-row justify-between items-center mx-auto h-screen">
+        <!--left part-->
+        <div class="space-y-8">
+            <h1 class="font-mullish font-bold text-[40px] leading-[1.2] text-red-600">DONATE BLOOD!!!</h1>
+            <!-- <div class="w-6 h-1 bg-greenLight"></div> -->
+            <p class="font-mullish text-[18px] leading-7 text-white opacity-70">
+                This donated blood is collected to be used for medical treatments, 
+                surgeries, and emergencies to save or improve 
+                the lives of patients who require blood transfusions. 
+                
+            </p>
+            <a href="login.html" class="inline-block">
+                <button class="bg-lightBlue text-white py-[14px] px-[18px] rounded-md font-mullish font-bold hover:bg-lightBlue500 transition-all duration-200">
+                    Get Started
+                </button>
+            </a>
+            <!-- <button
+            class="bg-lightBlue text-white  py-[14px] px-[18px] rounded-md font-mullish font-bold
+            hover:bg-lightBlue500 transition-all duration-200"
+            >Get Started</button> -->
+        </div>
+        <!--right part-->
+        <img src="./images/magb1.jpeg" alt=""
+        class="w-full max-w-[450px]">
+    </div>
+
+    <!--shape part-->
+    <div class="w-[103%] absolute left-0 right-0">
+        <img src="" alt=""
+        class="w-full object-fill ">
+    </div>
+
+
+    <tfoot>
+        <tr class="bg-white">
+            <td colspan="3" class="bg-red-600 px-6 py-4 text-base text-white font-bold">
+                <b class="blink text-sm font-bold"> NOTE  :- It is essential that blood donors carefully recall and provide accurate information about vaccinations. 
+                    <br>Because there is a risk of passing vaccine virus to others following vaccination with certain, live attenuated, viral and bacterial vaccines.</b>
+            </td>
+        </tr>
+    </tfoot>
+    <br>
+    
+    </section>
+    <br>
+    <br>
+    
+        
+</br>
+<div class="max-w-3xl mx-auto my-8">
+    <div class="relative h-0" style="padding-bottom: 56.25%;">
+        <!-- Replace the 'src' attribute with the URL of your video -->
+        <iframe src="./images/mainv.mp4" 
+        class="absolute w-full h-full" frameborder="0" 
+        allowfullscreen></iframe>
+    </div>
+</div>
+<br>
+<br>|
+
+
+
+    <!--feature section - 1-->
+    <section class="relative mt-[190px] overflow-hidden">
+        <img src="data:image/png;base64,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" alt="" loading="lazy" 
+        width="233"
+        height="167"
+        class="absolute -top-[8rem] left-[10rem] inline-block -z-10">
+
+        <img src="data:image/png;base64,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" alt="" loading="lazy"
+        width="233"
+        height="167"
+        class="absolute top-[3rem] right-0 inline-block rotate-180">
+
+        <div class="relative w-11/12 max-w-[1080px] mx-auto pt-4">
+            <!--heading-->
+            <h2 class="font-mullish text-center text-2xl leading-[1.2] font-extrabold">LEARN ABOUT DONATION</h2>
+            <div class="w-6 h-1 bg-greenLight mx-auto mt-4 mb-6"></div>
+
+            <!--content box-->
+
+<div class="relative overflow-x-auto shadow-md sm:rounded-lg">
+    
+    <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+        <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+            <tr>
+                <th scope="col" class="p-4">
+                    <!-- <div class="flex items-center">
+                        <input id="checkbox-all-search" type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                        <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                    </div> -->
+                </th>
+                <th scope="col" class="px-6 py-3">
+                   Blood Type
+                </th>
+                <th scope="col" class="px-6 py-3">
+                    Donate Blood To
+                </th>
+                <th scope="col" class="px-6 py-3">
+                    Recevive Blood From
+                </th>
+                
+                <th scope="col" class="px-6 py-3">
+                    Available
+                </th>
+                <th scope="col" class="px-6 py-3">
+                    Gov. Price
+                </th>
+                <th scope="col" class="px-6 py-3">
+                   Non-Gov Price
+                </th>
+                <th scope="col" class="px-6 py-3">
+                   Unit
+                 </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600 w-fit">
+                <td class="w-4 p-4">
+                    <div class="flex items-center">
+                        <input id="checkbox-table-search-1" type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                        <label for="checkbox-table-search-1" class="sr-only">checkbox</label>
+                    </div>
+                </td>
+                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                   A+
+                </th>
+                <td class="px-6 py-4">
+                    A+  AB+
+                </td>
+                <td class="px-6 py-4">
+                   A+ A- O+ O-
+                </td>
+                <td class="px-6 py-4">
+                    Yes
+                </td>
+                <td class="px-6 py-4">
+                    $43
+                </td>
+                <td class="px-6 py-4">
+                    $112
+                </td>
+                <td class="px-6 py-4">
+                    7.6 lb
+                </td>
+                
+                
+                
+            </tr>
+            <tr class="bg-white border-b border dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600 w-fit">
+                <td class="w-4 p-4">
+                    <div class="flex items-center">
+                        <input id="checkbox-table-search-2" type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                        <label for="checkbox-table-search-2" class="sr-only">checkbox</label>
+                    </div>
+                </td>
+                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                    O+
+                </th>
+                <td class="px-6 py-4">
+                    O+ A+ B+ AB+
+                </td>
+                <td class="px-6 py-4">
+                    O+ O-
+                </td>
+                <td class="px-6 py-4">
+                    No
+                </td>
+                <td class="px-6 py-4">
+                    $45
+                </td>
+                <td class="px-6 py-4">
+                    $112
+                </td>
+                <td class="px-6 py-4">
+                    7.6 lb
+                </td>
+                
+               
+                
+            </tr>
+            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+                <td class="w-4 p-4">
+                    <div class="flex items-center">
+                        <input id="checkbox-table-search-3" type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                        <label for="checkbox-table-search-3" class="sr-only">checkbox</label>
+                    </div>
+                </td>
+                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                    B+
+                </th>
+                <td class="px-6 py-4">
+                    B+ AB+
+                </td>
+                <td class="px-6 py-4">
+                    B+ B- O+ O-
+                </td>
+                <td class="px-6 py-4">
+                    Yes
+                </td>
+                <td class="px-6 py-4">
+                    $34
+                </td>
+                <td class="px-6 py-4">
+                    $112
+                </td>
+                <td class="px-6 py-4">
+                    7.6 lb
+                </td>
+                
+                
+            </tr>
+            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+                <td class="w-4 p-4">
+                    <div class="flex items-center">
+                        <input id="checkbox-table-search-3" type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                        <label for="checkbox-table-search-3" class="sr-only">checkbox</label>
+                    </div>
+                </td>
+                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                    AB+
+                </th>
+                <td class="px-6 py-4">
+                    AB+
+                </td>
+                <td class="px-6 py-4">
+                    Everyone
+                </td>
+                <td class="px-6 py-4">
+                    Yes
+                </td>
+                <td class="px-6 py-4">
+                   $12
+                </td>
+                <td class="px-6 py-4">
+                    $112
+                </td>
+                <td class="px-6 py-4">
+                    5.6 lb
+                </td>
+               
+                
+            </tr>
+            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+                <td class="w-4 p-4">
+                    <div class="flex items-center">
+                        <input id="checkbox-table-search-3" type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                        <label for="checkbox-table-search-3" class="sr-only">checkbox</label>
+                    </div>
+                </td>
+                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                    A-
+                </th>
+                <td class="px-6 py-4">
+                    A+ A- AB+ AB- 
+                </td>
+                <td class="px-6 py-4">
+                    A- O- 
+                </td>
+                <td class="px-6 py-4">
+                    Yes
+                </td>
+                <td class="px-6 py-4">
+                    $47
+                </td>
+                <td class="px-6 py-4">
+                    $99
+                </td>
+                <td class="px-6 py-4">
+                    7.0 lb.
+                </td>
+                
+            </tr>
+            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+                <td class="w-4 p-4">
+                    <div class="flex items-center">
+                        <input id="checkbox-table-search-3" type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                        <label for="checkbox-table-search-3" class="sr-only">checkbox</label>
+                    </div>
+                </td>
+                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                    O -
+                </th>
+                <td class="px-6 py-4">
+                    Everyone
+                </td>
+                <td class="px-6 py-4">
+                    O-
+                </td>
+                <td class="px-6 py-4">
+                    No
+                </td>
+                <td class="px-6 py-4">
+                    $56
+                </td>
+                <td class="px-6 py-4">
+                    $99
+                </td>
+                <td class="px-6 py-4">
+                    3.3 lb
+                </td>
+                
+            </tr>
+            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+                <td class="w-4 p-4">
+                    <div class="flex items-center">
+                        <input id="checkbox-table-search-3" type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                        <label for="checkbox-table-search-3" class="sr-only">checkbox</label>
+                    </div>
+                </td>
+                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                    B-
+                </th>
+                <td class="px-6 py-4">
+                    B+ B- AB+ AB-
+                </td>
+                <td class="px-6 py-4">
+                    B- O-
+                </td>
+                <td class="px-6 py-4">
+                    Yes
+                </td>
+                <td class="px-6 py-4">
+                    $67
+                </td>
+                <td class="px-6 py-4">
+                    $134
+                </td>
+                <td class="px-6 py-4">
+                    1.3 lb.
+                </td>
+                
+                
+            </tr>
+            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+                <td class="w-4 p-4">
+                    <div class="flex items-center">
+                        <input id="checkbox-table-search-3" type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                        <label for="checkbox-table-search-3" class="sr-only">checkbox</label>
+                    </div>
+                </td>
+                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                    AB-
+                </th>
+                <td class="px-6 py-4">
+                    AB+ AB-
+                </td>
+                <td class="px-6 py-4">
+                    AB- A- B- O-
+                </td>
+                <td class="px-6 py-4">
+                    Yes
+                </td>
+                <td class="px-6 py-4">
+                    $23
+                </td>
+                <td class="px-6 py-4">
+                    $99
+                </td>
+                <td class="px-6 py-4">
+                    4.7 lb
+                </td>
+                
+            
+                
+                
+        </tbody>
+    </table>
+</div>
+
+            
+                    <br>
+                    <br>
+                    <br>
+
+                <!-- for button and hyperlink-->
+                <div class="flex flex-row items-center space-x-4 ">
+                    <button
+                    class="bg-lightBlue w-fit text-white py-[14px] px-[18px] rounded-md
+                    font-mullish font-bold hover:bg-lightBlue500 translate-all duration-200"
+                    >Sign Up Now</button>
+                    <!--hyperlink-->
+                    <div class="flex items-center cursor-pointer group">
+                        <a href="#" 
+                        class="font-mullish font-bold text-lightBlue500 
+                        group-hover:text-grayBlue transition-all duration-200"
+                        >Know More</a>
+                        <i
+                        data-feather="chevron-right"
+                        class="w-5 h-5 text-lightBlue500 
+                        group-hover:text-grayBlue transition-all duration-200"></i>
+                    </div>
+                </div>
+
+                </div>
+                
+            
+
+            <div class="w-full  flex flex-row mt-10 space-x-3  justify-between py-12">
+                <!--Box1-->
+                <div class=" grid lg:grid-cols-2 md:grid-cols-1 gap-8  h-auto w-2/3">
+                <div class="  relative cursor-pointer ">
+                    <img src="/assets/hos-b787602b.jpeg" alt=""
+                    class="bg-lightBlue absolute  right-0 top-1 w-12 h-12 rounded-full z-[8]
+                    transition-all duration-200">
+                    
+                    <!--box shape-->
+                    <svg
+                        viewBox="0 0 349.32501220703125 225"
+                        xmlns="http://www.w3.org/2000/svg"
+                        preserveAspectRatio="none"
+                        class="stroke-1 stroke-[#818597] h-full w-full absolute z-[9] transition-all duration-200"
+                        style="stroke-opacity: 0.15"
+                         >
+                  <path
+                        d="m 0 6 
+                    a 6 6 0 0 1 6 -6 
+                    h 250.32501220703125 
+                    a 16 16 0 0 1 11 5 
+                    l 77 77 
+                    a 16 16 0 0 1 5 11 
+                    v 126 
+                    a 6 6 0 0 1 -6 6 
+                    h -337.32501220703125 
+                    a 6 6 0 0 1 -6 -6 
+                    z"
+                        fill="#fff"
+                  ></path>
+                    </svg>
+    
+                    <!--box -content -->
+                    <div class="z-[100] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8">
+                        <!--text part-->
+                        <div>
+                            <h3 class="font-mullish font-bold text-deepBlueHead leading-[1.2] text-[1.375rem]">Hospital Blood Donation</h3>
+                            <p class="font-mullish text-grayText mt-6">
+                                Please consider donating blood at our hospital's blood bank. 
+                                Your donation can save lives. Walk-ins are welcome, 
+                                or you can schedule an appointment in advance</p>
+                        </div>
+    
+                        <!--hyperlink know more-->
+                        <div class="flex items-center cursor-pointer group">
+                            <a href="https://www.google.co.in/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwji9IPD4OaCAxXm1jgGHdZwAQYQFnoECBoQAQ&url=https%3A%2F%2Faiimspatna.edu.in%2Fblood-bank%2F&usg=AOvVaw25Gbi6Gl-1EfMWZDnPXgOA&opi=89978449" 
+                            class="font-mullish font-bold text-lightBlue500 
+                            group-hover:text-grayBlue transition-all duration-200"
+                            >Know More</a>
+                            <i
+                            data-feather="chevron-right"
+                            class="w-5 h-5 text-lightBlue500 
+                            group-hover:text-grayBlue transition-all duration-200"></i>
+                        </div>
+    
+                    </div>
+    
+                </div>
+                <!--Box2-->
+                <div class="w-full  relative cursor-pointer">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAKrBAMAAACdOOKnAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAG1BMVEX////2x8neKzL1wMLaEhr3yszhQEffNDv1vL6qeplGAAAAAWJLR0QAiAUdSAAAAAd0SU1FB+cIFhU6OeLW9fIAAARrSURBVHja7dJREUBQFEVRRgEZXgIhfEigARpIILgGvs7wsFaCO+fupgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACe15aA3o6v1Y0Bgx0FgAAQAAJAAAgAASAABIAAEAACQAAIAAEgAASAABAAAkAACAABIAAEgAAQAAJAAAgAASAABIAAEAACQAAIAAEgAASAABAAAkAACAABIAAEgAAQAAJAAAgAASAABIAAEAACQAAIQAACEIAABCAAAQhAAAIQgAAEIAABCEAAAhCAAAQgAAEIQAACEIAABCAAAQhAAAIQgAAEIAABCEAAAhCAAAQgAAHYUQAIAAEgAASAABAAAkAACAABIAAEgAAQAAJAAAgAASAABIAAEAACQAAIAAEgAASAABAAAkAACAABIAAEgAAQAAJAAAgAASAABIAAEAACQAAIAAEgAASAABAAAkAACAABIAAEgAAEIAABCEAAAhCAAAQgAAEIQAACqNu8Jm2JAPboSYsfXzrGj5v8WAAIAAEgAASAABAAAkAACEAAAhCAAAQgAAEIQAACEIAABCAAAQhAAAIQgAAEIAABCEAAAhCAAAQgAAEIQAACEIAABCAAAQhAAAIQgAAEIAABCEAAAhCAAAQgAAEIQAACEIAABCAAAQhAAAIQgAAEIAABCEAAAhCAAAQgAAEIQAACEIAABCAAAQhAAAIQgAAEIAABCEAAAhCAAAQgAAEIQAACEIAABCAAAQhAAAIQgAAEIAABCEAAAhCAAAQgAAEIQAACEIAABCAAAQhAAAIQgAAEIAABCEAAAhCAAAQgAAH4sQAQAAJAAAgAASAABIAAEIAABCAAAQhAAAIQgAAEIAABCEAAAhCAAAQgAAEIQAACEIAABCAAAQhAAAIQgAAEIAABCEAAAhCAAAQgAAEIQAACEIAABCAAAQhAAAIQgAAEIAABCEAAAhCAAAQgAAEIQAACEIAABCAAAVRmXpO2xMv26EmLH9+oSwQw2FEACAABIAAEgAAQAAJAAAgAASAABIAAEAACQAAIAAEgAASAABAAAkAACAABIAAEgAAQAAJAAAgAASAABIAAEAACQAAIAAEgAASAABAAAkAACAABIAAEgAAQAAJAAAgAASAABIAABCAAAQhAAAIQgAAEIAABCEAAAhCAAAQgAAEIQAACEIAABCAAAQhAAAIQgAAEIAABCEAAAhCAAAQgAAEIQAACEIAdBYAAEAACQAAIAAEgAASAABAAAkAACAABIAAEgAAQAAJAAAgAASAABIAAEAACQAAIAAEgAASAABAAAkAACAABIAAEgAAQAAJAAAgAASAABIAAEAACQAAIAAEgAASAABAAAkAACEAAAhCAAAQgAAEIQAACEIAABCCAP2lLQG9HAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAqMAJ/7/FIcKISRsAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjMtMDgtMjJUMjE6NTg6NTcrMDA6MDC85qLnAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIzLTA4LTIyVDIxOjU4OjU3KzAwOjAwzbsaWwAAAABJRU5ErkJggg==" alt=""
+                    class="bg-lightBlue absolute right-0 top-1 w-12 h-12 rounded-full z-[8]
+                    transition-all duration-200">
+                    
+                    <!--box shape-->
+                    <svg
+                        viewBox="0 0 349.32501220703125 225"
+                        xmlns="http://www.w3.org/2000/svg"
+                        preserveAspectRatio="none"
+                        class="stroke-1 stroke-[#818597] h-full w-full absolute z-[9] transition-all duration-200"
+                        style="stroke-opacity: 0.15"
+                         >
+                  <path
+                        d="m 0 6 
+                    a 6 6 0 0 1 6 -6 
+                    h 250.32501220703125 
+                    a 16 16 0 0 1 11 5 
+                    l 77 77 
+                    a 16 16 0 0 1 5 11 
+                    v 126 
+                    a 6 6 0 0 1 -6 6 
+                    h -337.32501220703125 
+                    a 6 6 0 0 1 -6 -6 
+                    z"
+                        fill="#fff"
+                  ></path>
+                    </svg>
+    
+                    <!--box -content -->
+                    <div class="z-[100] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8">
+                        <!--text part-->
+                        <div>
+                            <h3 class="font-mullish font-bold text-deepBlueHead leading-[1.2] text-[1.375rem]">Red Cross</h3>
+                            <p class="font-mullish text-grayText mt-6">
+                                The Red Cross is a humanitarian organization with a global presence, 
+                                dedicated to providing assistance, support, and relief to people in times of crisis. 
+                            </p>
+                        </div>
+    
+                        <!--hyperlink know more-->
+                        <div class="flex items-center cursor-pointer group">
+                            <a href="https://www.google.co.in/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjRh_f04OaCAxWuwjgGHRpqCnsQFnoECBEQAQ&url=https%3A%2F%2Fwww.indianredcross.org%2Fblood-bank.htm&usg=AOvVaw2FmE1bkqzOfsCqYZ5_dQaK&opi=89978449" 
+                            class="font-mullish font-bold text-lightBlue500 
+                            group-hover:text-grayBlue transition-all duration-200"
+                            >Know More</a>
+                            <i
+                            data-feather="chevron-right"
+                            class="w-5 h-5 text-lightBlue500 
+                            group-hover:text-grayBlue transition-all duration-200"></i>
+                        </div>
+    
+                    </div>
+    
+                </div>
+                <!--Box3-->
+                <div class="w-full  relative cursor-pointer">
+                    <img src="/assets/NACO-50f0dbcb.jpeg" alt=""
+                    class="bg-lightBlue absolute right-0 top-1 w-12 h-12 rounded-full z-[8]
+                    transition-all duration-200">
+                    
+                    <!--box shape-->
+                    <svg
+                        viewBox="0 0 349.32501220703125 225"
+                        xmlns="http://www.w3.org/2000/svg"
+                        preserveAspectRatio="none"
+                        class="stroke-1 stroke-[#818597] h-full w-full absolute z-[9] transition-all duration-200"
+                        style="stroke-opacity: 0.15"
+                         >
+                  <path
+                        d="m 0 6 
+                    a 6 6 0 0 1 6 -6 
+                    h 250.32501220703125 
+                    a 16 16 0 0 1 11 5 
+                    l 77 77 
+                    a 16 16 0 0 1 5 11 
+                    v 126 
+                    a 6 6 0 0 1 -6 6 
+                    h -337.32501220703125 
+                    a 6 6 0 0 1 -6 -6 
+                    z"
+                        fill="#fff"
+                  ></path>
+                    </svg>
+    
+                    <!--box -content -->
+                    <div class="z-[100] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8">
+                        <!--text part-->
+                        <div>
+                            <h3 class="font-mullish font-bold text-deepBlueHead leading-[1.2] text-[1.375rem]">NACO </h3>
+                            <p class="font-mullish text-grayText mt-6">
+                                The National Blood Transfusion Council is a central authority or 
+                                agency established by the government in many countries to oversee and
+                                 regulate blood transfusion services</p>
+                        </div>
+    
+                        <!--hyperlink know more-->
+                        <div class="flex items-center cursor-pointer group">
+                            <a href="https://www.google.co.in/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi0__nq4eaCAxWbxTgGHcQbDNYQFnoECBIQAQ&url=https%3A%2F%2Fwww.naco.gov.in%2Fstate-wise-list-registeredlicensed-blood-banks&usg=AOvVaw0BzEKAdfaSYutC4axmfFF0&opi=89978449" 
+                            class="font-mullish font-bold text-lightBlue500 
+                            group-hover:text-grayBlue transition-all duration-200"
+                            >Know More</a>
+                            <i
+                            data-feather="chevron-right"
+                            class="w-5 h-5 text-lightBlue500 
+                            group-hover:text-grayBlue transition-all duration-200"></i>
+                        </div>
+    
+                    </div>
+    
+                </div>
+                
+                
+                <!--Box4-->
+                <div class="w-full  relative cursor-pointer">
+                    <img src="/assets/PIB-1382ee8b.jpeg" alt=""
+                    class="bg-lightBlue absolute right-0 top-1 w-12 h-12 rounded-full z-[8]
+                    transition-all duration-200">
+                    
+                    <!--box shape-->
+                    <svg
+                        viewBox="0 0 349.32501220703125 225"
+                        xmlns="http://www.w3.org/2000/svg"
+                        preserveAspectRatio="none"
+                        class="stroke-1 stroke-[#818597] h-full w-full absolute z-[9] transition-all duration-200"
+                        style="stroke-opacity: 0.15"
+                         >
+                  <path
+                        d="m 0 6 
+                    a 6 6 0 0 1 6 -6 
+                    h 250.32501220703125 
+                    a 16 16 0 0 1 11 5 
+                    l 77 77 
+                    a 16 16 0 0 1 5 11 
+                    v 126 
+                    a 6 6 0 0 1 -6 6 
+                    h -337.32501220703125 
+                    a 6 6 0 0 1 -6 -6 
+                    z"
+                        fill="#fff"
+                  ></path>
+                    </svg>
+    
+                    <!--box -content -->
+                    <div class="z-[100] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8">
+                        <!--text part-->
+                        <div>
+                            <h3 class="font-mullish font-bold text-deepBlueHead leading-[1.2] text-[1.375rem]">PIB </h3>
+                            <p class="font-mullish text-grayText mt-6">
+                                Government of India, through National Health Mission, supports States/UTs to strengthen their healthcare systems including strengthening existing blood banks /
+                                
+                                </p>
+                        </div>
+    
+                        <!--hyperlink know more-->
+                        <div class="flex items-center cursor-pointer group">
+                            <a href="https://www.google.co.in/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiGw4q94uaCAxWu7jgGHTyYBdsQFnoECBcQAQ&url=https%3A%2F%2Fpib.gov.in%2FPressReleaseIframePage.aspx%3FPRID%3D1810996&usg=AOvVaw2Lnb2tjB1zuRn1S7P7b6xc&opi=89978449" 
+                            class="font-mullish font-bold text-lightBlue500 
+                            group-hover:text-grayBlue transition-all duration-200"
+                            >Know More</a>
+                            <i
+                            data-feather="chevron-right"
+                            class="w-5 h-5 text-lightBlue500 
+                            group-hover:text-grayBlue transition-all duration-200"></i>
+                        </div>
+    
+                    </div>
+    
+                </div>
+            </div>
+                <div class="w-1/3  cursor-pointer rounded-3xl ">
+                <img src="/assets/bl-c131e95d.jpg" alt=""
+                class="h-[64vh] w-full pr-5">
+                </div>
+               
+                    
+            </div>
+
+        </div>
+
+
+
+    </section>
+
+
+    <script>
+        feather.replace()
+    </script>
+
+
+
+
+<!--footer-->
+
+
+<footer class="bg-white dark:bg-gray-900">
+    <div class="mx-auto w-full max-w-screen-xl">
+      <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
+        <div>
+            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Looking for Blood</h2>
+            <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                <li class="mb-4">
+                    <a href="#" class=" hover:underline">Blood Available</a>
+                </li>
+                <li class="mb-4">
+                    <a href="#" class="hover:underline">Blood Bank Directory</a>
+                </li>
+                <li class="mb-4">
+                    <a href="#" class="hover:underline">Hospitals</a>
+                </li>
+                <li class="mb-4">
+                    <a href="#" class="hover:underline">Donor Request</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Want to Donate Blood</h2>
+            <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                <li class="mb-4">
+                    <a href="#" class="hover:underline">Blood Donation Camps</a>
+                </li>
+                <li class="mb-4">
+                    <a href="#" class="hover:underline">Donor Login</a>
+                </li>
+                <li class="mb-4">
+                    <a href="rag.html" class="hover:underline">About Blood Donation </a>
+                </li>
+                <li class="mb-4">
+                    <a href="contactus.html" class="hover:underline">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
+            <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                <li class="mb-4">
+                    <a href="#" class="hover:underline">Privacy Policy</a>
+                </li>
+                <li class="mb-4">
+                    <a href="#" class="hover:underline">Licensing</a>
+                </li>
+                <li class="mb-4">
+                    <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">About Us</h2>
+            <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                <li class="mb-4">
+                    <a href="rag.html" class="hover:underline">About BBMS</a>
+                </li>
+                <li class="mb-4">
+                    <a href="student.html" class="hover:underline">Know Us</a>
+                </li>
+                <li class="mb-4">
+                    <a href="gallery.html" class="hover:underline">Gallery</a>
+                </li>
+                <li class="mb-4">
+                    <a href="gallery.html" class="hover:underline">Video Gallery</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+      <!-- NAME SECTION -->
+<hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+<div class="sm:flex sm:items-center sm:justify-between">
+    <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">2023 <a href="https://BBMS.com/" class="hover:underline">BBMS™</a>. All Rights Reserved.
+    </span>
+
+    <div class="px-4 py-6 bg-gray-100 dark:bg-gray-700 md:flex md:items-center md:justify-between">
+        <div class="flex mt-1 space-x-1 text-center">
+            <p class="text-white font-bold">Designed & Maintained by - </p>
+            <a href="student.html" target="_blank" rel="noopener noreferrer" class="text-white hover:underline font-bold text-center">codecrafter </a>
+
+        </div>
+       
+
+
+      </div>
+    </div>
+</footer>
+
+
+
+    
+    
+    
+    <!-- script for small-sized menu -->
+    <script>
+        const navLinks = document.querySelector('.nav-links')
+        function onToggleMenu(e){
+            e.name = e.name === 'menu' ? 'close' : 'menu'
+            navLinks.classList.toggle('top-[9%]')
+        }
+    </script>
+
+    <!-- script for dropdown of 'Call for Papers' -->
+    <script src="https://unpkg.com/@themesberg/flowbite@1.1.1/dist/flowbite.bundle.js"></script>
+  
+
+</body>
+</html>
